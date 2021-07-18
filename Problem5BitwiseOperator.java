@@ -1,6 +1,6 @@
 // Find the one non-repeating element in an array where every element repeats thrice
 
-package problem.pkg5.bitwise.operator;
+package Problem5BitwiseOperator;
 
 public class Problem5BitwiseOperator {
 
@@ -24,6 +24,6 @@ public class Problem5BitwiseOperator {
         for (int i = 0; i < INT_SIZE; i++) {
             res += (count[i] % k) * (1 << i);
         }
-        System.out.println(res);
+        System.out.println("One Non-Repeating Element is : " + res);
     }
 }
