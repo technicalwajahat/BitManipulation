@@ -1,6 +1,6 @@
-// Find the two non-repeating elements in an array where every element repeats twice 2
+// Find the two non-repeating elements in an array where every element repeats twice
 
-package problem.pkg4.bitwise.operator;
+package Problem4BitwiseOperator;
 
 public class Problem4BitwiseOperator {
 
